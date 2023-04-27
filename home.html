@@ -1,0 +1,48 @@
+{% extends "base.html" %} {% block title %}Horizon Travels - Home{% endblock %}
+{% block content %}
+<!--Hero header-->
+<body>
+    <div class="container-fluid position-relative p-0">
+        <div class="contain-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white mb-3">Enjoy your travels!</h1>
+                        <p class="fs-4 text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="position-relative w-75 mx-auto">
+                        <input type="text" class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" placeholder="Eg: Amsterdam">
+                        <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!--About-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6" style="min-height:400px;">
+                    <div class="position-relative h-100">
+                        <img src="../static/boat.jpg" alt="" class="img-fluid position-absolute w-100 h-100" style="object-fit:cover;"
+                    </div>
+                </div>
+                <div class ="col-lg-6">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">Tourist</span></h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First class flights</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}
